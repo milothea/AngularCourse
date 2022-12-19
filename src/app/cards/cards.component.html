@@ -1,0 +1,14 @@
+<mat-grid-list [cols]="2" rowHeight="2:1">
+  <mat-grid-tile *ngFor="let card of cardsContent; let i = index">
+    <mat-card>
+      <mat-card-title>{{i + 1}}. {{ card.title }}</mat-card-title>
+      <mat-card-content>
+        <mat-selection-list>
+          <mat-list-option *ngFor="let item of card.items">
+            {{ item }}
+          </mat-list-option>
+        </mat-selection-list>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

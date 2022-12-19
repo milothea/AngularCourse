@@ -1,0 +1,44 @@
+.main {
+  padding: 2rem;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  margin-top: 1rem;
+}
+
+.container {
+  height: 2rem;
+}
+
+.default {
+  background-color: transparent;
+}
+
+.customized {
+  background-color: #87ada9;
+}
+
+input {
+  width: 20rem;
+}
+
+button {
+  height: 2rem;
+  margin-left: 2rem;
+}
+
+.heading {
+  display: block;
+  height: 1rem;
+  text-align: center;
+
+  &.custom_heading {
+    color: #a1200a;
+    font-weight: 900;
+  }
+}
+
